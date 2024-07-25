@@ -7,6 +7,7 @@ This repository is inspired by the [Hardhat Boilerplate](https://github.com/Nomi
 - Support Typescript and new version of Ethers
 - Suppport Yarn scripts
 - Support Metis L2 Network
+- Switch CRA to NextJs for frontend
 
 ## Quick start
 
