@@ -11,9 +11,10 @@
     "hardhat": "hardhat node",
     "size": "hardhat size-contracts",
     "clean": "hardhat clean",
-    "deploy:local": "hardhat ignition deploy --network localhost",
-    "deploy:sepolia": "hardhat ignition deploy --network sepolia",
-    "run:sepolia": "hardhat run --network sepolia"
+    "run:local": "hardhat run --network localhost",
+    "run:sepolia": "hardhat run --network sepolia",
+    "run:metis-sepolia": "hardhat run --network metis-sepolia",
+    "run:metis": "hardhat run --network metis"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

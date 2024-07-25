@@ -28,6 +28,18 @@ module.exports = {
       accounts: [privateKey],
       timeout: 2_147_483_647,
     },
+    "metis-sepolia": {
+      url: "https://sepolia.metisdevops.link",
+      chainId: 59902,
+      accounts: [privateKey],
+      timeout: 2_147_483_647,
+    },
+    "metis": {
+      url: "https://andromeda.metis.io/?owner=1088",
+      chainId: 1088,
+      accounts: [privateKey],
+      timeout: 2_147_483_647,
+    }
   },
   solidity: {
     version: "0.8.24",
